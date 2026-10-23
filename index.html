@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vini Jr. - O Ousado da Seleção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Controle de Tema -->
+    <header class="top-bar">
+        <button id="btn-theme" class="theme-toggle" aria-label="Alternar Tema">
+            🌙 Modo Escuro
+        </button>
+    </header>
+
+    <main class="container">
+        <article class="card">
+            <header class="card-header">
+                <span class="badge">Destaque do Futebol</span>
+                <h1>Vini Jr. é o Novo Líder da Seleção? ⚡</h1>
+            </header>
+
+            <figure class="card-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Vinicius_Jr_2018.jpg" 
+                     alt="Vinícius Júnior com a camisa da Seleção Brasileira">
+                <figcaption class="sr-only">Vinícius Júnior em partida oficial</figcaption>
+            </figure>
+
+            <section class="card-body">
+                <p class="description">
+                    Com muita velocidade, ousadia e dribles marcantes, Vini Jr. se consolida como um dos grandes protagonistas do futebol mundial.
+                </p>
+
+                <div class="highlights">
+                    <h3>Conquistas Notáveis</h3>
+                    <ul>
+                        <li>🏆 Campeão da UEFA Champions League</li>
+                        <li>⚽ Decisivo nas maiores finais continentais</li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer class="card-footer">
+                <p class="call-to-action">Qual é a sua reação?</p>
+                <div class="reactions-container">
+                    <button class="btn-reaction" id="btn-fogo" type="button">
+                        <span class="emoji" role="img" aria-label="Fogo">🔥</span> 
+                        <span class="label">Jogando muito</span> 
+                        <span class="count">0</span>
+                    </button>
+
+                    <button class="btn-reaction" id="btn-craque" type="button">
+                        <span class="emoji" role="img" aria-label="Coroa">👑</span> 
+                        <span class="label">Futuro Melhor do Mundo</span> 
+                        <span class="count">0</span>
+                    </button>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
